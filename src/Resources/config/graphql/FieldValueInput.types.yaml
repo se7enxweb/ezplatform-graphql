@@ -26,10 +26,10 @@ UrlFieldInput:
     config:
         fields:
             link:
-                type: String
+                type: String!
                 description: "The link's URL"
             text:
-                type: String!
+                type: String
                 description: "The link's name or description"
 
 MapLocationFieldInput:
