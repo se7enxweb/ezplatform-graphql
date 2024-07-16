@@ -13,7 +13,9 @@ use eZ\Publish\API\Repository\Values\ContentType\FieldDefinition;
 class UrlFieldDefinitionMapper extends DecoratingFieldDefinitionMapper implements FieldDefinitionMapper
 {
     private const FIELD_TYPE_IDENTIFIER = 'ezurl';
-    private bool $shouldExtendUrlInputType;
+
+    /** @var bool */
+    private $shouldExtendUrlInputType;
 
     public function __construct(
         FieldDefinitionMapper $innerMapper,

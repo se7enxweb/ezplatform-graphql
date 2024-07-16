@@ -1,5 +1,5 @@
 parameters:
-  ibexa.graphql.schema.should.extend.ezurl: true
+  ibexa.graphql.schema.should.extend.ezurl: false
   ezplatform_graphql.schema.content.field_name.override:
     id: id_
   ezplatform_graphql.schema.content.mapping.field_definition_type:
