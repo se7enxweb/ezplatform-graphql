@@ -1,16 +1,18 @@
 <?php
 
 /**
- * @copyright Copyright (C) eZ Systems AS. All rights reserved.
+ * @copyright Copyright (C) Ibexa AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  */
+declare(strict_types=1);
+
 namespace Ibexa\GraphQL\Schema\Domain\Content\Mapper\FieldDefinition;
 
 use EzSystems\EzPlatformGraphQL\Schema\Domain\Content\Mapper\FieldDefinition\DecoratingFieldDefinitionMapper;
 use EzSystems\EzPlatformGraphQL\Schema\Domain\Content\Mapper\FieldDefinition\FieldDefinitionMapper;
 use eZ\Publish\API\Repository\Values\ContentType\FieldDefinition;
 
-class UrlFieldDefinitionMapper extends DecoratingFieldDefinitionMapper implements FieldDefinitionMapper
+final class UrlFieldDefinitionMapper extends DecoratingFieldDefinitionMapper implements FieldDefinitionMapper
 {
     private const FIELD_TYPE_IDENTIFIER = 'ezurl';
 
