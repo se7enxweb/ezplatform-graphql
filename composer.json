@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezplatform-graphql",
+    "name": "se7enxweb/ezplatform-graphql",
     "description": "GraphQL server for the eZ Platform Open Source CMS Repository.",
     "type": "ezplatform-bundle",
     "license": "MIT",
@@ -14,8 +14,8 @@
     },
     "require": {
         "ext-dom": "*",
-        "ezsystems/ezpublish-kernel": "^6.0|^7.0",
-        "ezsystems/ezplatform-admin-ui": "^1.0",
+        "se7enxweb/ezpublish-kernel": "^6.0|^7.0",
+        "se7enxweb/ezplatform-admin-ui": "^1.0",
         "overblog/graphql-bundle": "^0.11",
         "erusev/parsedown": "^1.0"
     },
