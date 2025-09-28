@@ -19,7 +19,7 @@
         "se7enxweb/ezplatform-admin-ui": "^2.0@dev",
         "se7enxweb/ezplatform-rest": "^1.2@dev",
         "se7enxweb/ezplatform-richtext": "^2.0@dev",
-        "se7enxweb/graphql-php": "^0.13",
+        "ibexa/graphql-php": "^0.13",
         "lexik/jwt-authentication-bundle": "^2.8",
         "overblog/graphql-bundle": "^0.13",
         "erusev/parsedown": "^1.7",
