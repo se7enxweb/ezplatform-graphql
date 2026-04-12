@@ -10,7 +10,8 @@
         }
     ],
     "replace": {
-        "bdunogier/ezplatform-graphql-bundle": "self.version"
+        "bdunogier/ezplatform-graphql-bundle": "self.version",
+        "ezsystems/ezplatform-graphql": "*"
     },
     "require": {
         "php": "^7.3 || ^8.0",
